@@ -107,14 +107,14 @@ module JWT
     fail(JWT::DecodeError, 'Nil JSON web token') unless jwt
 
     options = {
-      verify_expiration: true,
-      verify_not_before: true,
-      verify_iss: false,
-      verify_iat: false,
-      verify_jti: false,
-      verify_aud: false,
-      verify_sub: false,
-      leeway: 0
+      :verify_expiration => true,
+      :verify_not_before => true,
+      :verify_iss => false,
+      :verify_iat => false,
+      :verify_jti => false,
+      :verify_aud => false,
+      :verify_sub => false,
+      :leeway => 0
     }
 
     merged_options = options.merge(custom_options)
