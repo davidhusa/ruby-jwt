@@ -1,3 +1,6 @@
+# FORK NOTES
+The purpose of this fork is to restore Ruby 1.8.7 compatibility to this gem. { :hash_rockets => '4 lyfe' }
+
 # JWT
 
 [![Build Status](https://travis-ci.org/jwt/ruby-jwt.svg)](https://travis-ci.org/jwt/ruby-jwt)
